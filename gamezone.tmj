@@ -202,18 +202,18 @@
                 }, 
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 77, 0, 13, 14, 0, 90, 0, 0, 77, 0, 0, 90, 0, 90, 0, 0, 77, 0, 90, 0, 0, 90, 0,
+                    0, 89, 0, 0, 0, 0, 102, 0, 0, 89, 0, 0, 102, 0, 102, 0, 0, 89, 0, 102, 0, 0, 102, 0,
+                    0, 101, 0, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 205, 0, 0, 0, 0, 0, 205, 204, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 210, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 210, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 205, 0, 0, 0, 0, 0, 0, 214, 205, 0, 0, 0,
+                    0, 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":14,
                  "id":1,
@@ -295,6 +295,154 @@
                  "width":29,
                  "x":64,
                  "y":193
+                }, 
+                {
+                 "class":"area",
+                 "height":159,
+                 "id":24,
+                 "name":"jitsiGameZone1",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{\"disableDeepLinking\":false,\"prejoinConfig\":{\"enabled\":false},\"startWithAudioMuted\":false,\"startWithVideoMuted\":false}"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"gameZone1"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                        }, 
+                        {
+                         "name":"jitsiUrl",
+                         "type":"string",
+                         "value":"jitsi.serbski-inkubator.de"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":159,
+                 "x":576,
+                 "y":95
+                }, 
+                {
+                 "class":"area",
+                 "height":159,
+                 "id":25,
+                 "name":"jitsiGameZone2",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{\"disableDeepLinking\":false,\"prejoinConfig\":{\"enabled\":false},\"startWithAudioMuted\":false,\"startWithVideoMuted\":false}"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"gameZone2"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                        }, 
+                        {
+                         "name":"jitsiUrl",
+                         "type":"string",
+                         "value":"jitsi.serbski-inkubator.de"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":161,
+                 "x":576,
+                 "y":256
+                }, 
+                {
+                 "class":"area",
+                 "height":97,
+                 "id":26,
+                 "name":"jitsiGameZone3",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{\"disableDeepLinking\":false,\"prejoinConfig\":{\"enabled\":false},\"startWithAudioMuted\":false,\"startWithVideoMuted\":false}"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"gameZone3"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                        }, 
+                        {
+                         "name":"jitsiUrl",
+                         "type":"string",
+                         "value":"jitsi.serbski-inkubator.de"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":161,
+                 "x":353,
+                 "y":95
+                }, 
+                {
+                 "class":"area",
+                 "height":97,
+                 "id":27,
+                 "name":"jitsiGameZone4",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{\"disableDeepLinking\":false,\"prejoinConfig\":{\"enabled\":false},\"startWithAudioMuted\":false,\"startWithVideoMuted\":false}"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"gameZone4"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                        }, 
+                        {
+                         "name":"jitsiUrl",
+                         "type":"string",
+                         "value":"jitsi.serbski-inkubator.de"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":161,
+                 "x":354,
+                 "y":318
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -363,7 +511,7 @@
          "y":0
         }],
  "nextlayerid":62,
- "nextobjectid":24,
+ "nextobjectid":28,
  "orientation":"orthogonal",
  "properties":[
         {
