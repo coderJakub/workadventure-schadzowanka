@@ -403,6 +403,33 @@
                  "width":58.5490753911806,
                  "x":763.52773826458,
                  "y":587.880512091038
+                }, 
+                {
+                 "class":"area",
+                 "height":209.333333333333,
+                 "id":28,
+                 "name":"dancePlaylist",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/5rMXHrpYuJk?si=SbXiUw5FOugMdnVK"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":741.333333333333,
+                 "x":125.333333333333,
+                 "y":249.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -485,7 +512,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":28,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "properties":[
         {

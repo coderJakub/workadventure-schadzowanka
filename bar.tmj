@@ -320,7 +320,7 @@
                         {
                          "name":"jitsiTriggerMessage",
                          "type":"string",
-                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                         "value":"Za p\u0159istup do konferency SPACE t\u0142o\u0107i\u0107!"
                         }, 
                         {
                          "name":"jitsiUrl",
@@ -357,7 +357,7 @@
                         {
                          "name":"jitsiTriggerMessage",
                          "type":"string",
-                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                         "value":"Za p\u0159istup do konferency SPACE t\u0142o\u0107i\u0107!"
                         }, 
                         {
                          "name":"jitsiUrl",
@@ -394,7 +394,7 @@
                         {
                          "name":"jitsiTriggerMessage",
                          "type":"string",
-                         "value":"Za p\u0159istup do konferency LEERZEICHEN t\u0142o\u0107i\u0107!"
+                         "value":"Za p\u0159istup do konferency SPACE t\u0142o\u0107i\u0107!"
                         }, 
                         {
                          "name":"jitsiUrl",
