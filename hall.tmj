@@ -326,18 +326,17 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
                  "height":41.8207681365576,
                  "id":20,
                  "name":"",
                  "rotation":0,
+                 "type":"",
                  "visible":false,
                  "width":59.7439544807965,
                  "x":929.615931721195,
                  "y":32.2617354196302
                 }, 
                 {
-                 "class":"area",
                  "height":43.0156472261734,
                  "id":23,
                  "name":"from-map1",
@@ -348,13 +347,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":65.7183499288763,
                  "x":184.011379800853,
                  "y":598.634423897582
                 }, 
                 {
-                 "class":"area",
                  "height":28.6770981507824,
                  "id":24,
                  "name":"to-map1",
@@ -365,13 +364,13 @@
                          "value":"map.tmj#from-hall1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":164.893314366999,
                  "x":125.462304409673,
                  "y":641.650071123755
                 }, 
                 {
-                 "class":"area",
                  "height":27.4822190611663,
                  "id":26,
                  "name":"to-map2",
@@ -382,13 +381,13 @@
                          "value":"map.tmj#from-hall2"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":167.283072546231,
                  "x":701.394025604552,
                  "y":640.455192034139
                 }, 
                 {
-                 "class":"area",
                  "height":45.4054054054054,
                  "id":27,
                  "name":"from-map2",
@@ -399,16 +398,16 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":58.5490753911806,
                  "x":763.52773826458,
                  "y":587.880512091038
                 }, 
                 {
-                 "class":"area",
-                 "height":209.333333333333,
+                 "height":200.025854108956,
                  "id":28,
-                 "name":"dancePlaylist",
+                 "name":"dancePlaylistRejwac",
                  "properties":[
                         {
                          "name":"audioLoop",
@@ -423,13 +422,68 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/5rMXHrpYuJk?si=SbXiUw5FOugMdnVK"
+                         "value":"06.kulow.mp3"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
-                 "width":741.333333333333,
+                 "width":258.190548140686,
                  "x":125.333333333333,
                  "y":249.333333333333
+                }, 
+                {
+                 "height":200.8719885839,
+                 "id":30,
+                 "name":"dancePlaylistKorcma",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"19.kneipe2.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":227.729707042726,
+                 "x":636.39855619911,
+                 "y":249.333333333333
+                }, 
+                {
+                 "height":200.025854108956,
+                 "id":29,
+                 "name":"dancePlaylistPiwo",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"05.kneipe1.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":240.421724166876,
+                 "x":390.173423990598,
+                 "y":250.179467808276
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -512,7 +566,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":29,
+ "nextobjectid":31,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -541,7 +595,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -699,6 +753,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":31
 }
