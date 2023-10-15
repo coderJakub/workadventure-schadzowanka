@@ -437,8 +437,59 @@
                  "rotation":0,
                  "visible":true,
                  "width":736,
-                 "x":128,
-                 "y":94.6666666666667
+                 "x":130.666666666667,
+                 "y":98.6666666666668
+                }, 
+                {
+                 "class":"area",
+                 "height":361.333333333333,
+                 "id":29,
+                 "name":"ChatZone1",
+                 "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat left row"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":228,
+                 "x":125.333333333333,
+                 "y":117.333333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":361.333,
+                 "id":30,
+                 "name":"ChatZone3",
+                 "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat right row"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":228,
+                 "x":642,
+                 "y":119.3335
+                }, 
+                {
+                 "class":"area",
+                 "height":258.666333333333,
+                 "id":32,
+                 "name":"ChatZone2",
+                 "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat middle row"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":116,
+                 "x":438,
+                 "y":224.666833333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -521,7 +572,7 @@
          "y":0
         }],
  "nextlayerid":64,
- "nextobjectid":29,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "properties":[
         {
